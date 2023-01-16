@@ -1,4 +1,0 @@
-Quando pensamos em HTML, CSS e JS. Logo temos que entender o papel de cada solução.
-HTML: parte de estruturação, marcação e organização do que vai aparecer no cabeçalho, rodapé, se vai ter um botão de login por exemplo ou sair da página.
-CSS: complementação do HTML em si, responsável pelo estilo e design da página. 
-JS: É o plus de uma página, que deixa de ser estática e passa a ter animação 3D por exemplo, pode após certa ação do usuário, interagir com esse usuário e abrir um pop-up.
