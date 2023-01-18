@@ -15,17 +15,17 @@ function compararValor(){
         if(primeiroValor===segundoValor){
         alert("São iguais");
         const barraErro = document.querySelector('.msgErro');
-            barraErro.style.display = "block";
+        barraErro.style.display = "block";
         }
             else if(primeiroValor>segundoValor){
             alert("O primeiro é maior que o segundo");
-            const barraSucesso = document.querySelector('.msgSucesso');
-            barraSucesso.style.display = "block";
+            const barraErro = document.querySelector('.msgErro');
+            barraErro.style.display = "block";
             }
                 else{
                 alert("O segundo é maior que o primeiro");
-                const barraErro = document.querySelector('.msgErro');
-                barraErro.style.display = "block";
+                const barraSucesso = document.querySelector('.msgSucesso');
+                barraSucesso.style.display = "block";
                 }
     }
 }
