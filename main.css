@@ -5,49 +5,69 @@
 }
 
 body{
-background-color: gray;
+    background-color: rgb(218, 218, 206);
 }
 
-.container h1{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+header h1{
+    padding: 30px;
+    text-align: center;
 }
 
 .container{
-    height: 80vh;
     position:relative;
-    display: flex;
-    justify-content: center;
+    padding: 30px ;
 }
 
-.container h1{
-    align-items:baseline;
-    justify-content: center;
-}
-
-.cadastramento-tarefa{
+#cadastramento-tarefa{
     position:absolute;
-    padding: 16px;
+    display: flex;
     top: 15%;
     left:50%;
     transform: translate(-50%, -50%);
-    justify-content: center;
 }
 
-.cadastramento-tarefa input{
+input{
+    width: 400px;
     height: 30px;
-    width: 500px;
+    border:none;
 }
 
-.container h1{
-    padding: 16px;
+input:focus{     
+    outline: none; 
 }
 
 button{
     background-color: green;
     color: white;
+    margin-left: 16px;
     height: 30px;
-    width: 100px;
     border: none;
+    cursor: pointer;
 }
+
+.novos-itens ul{
+    padding: 10px 0;
+    text-align: center;
+    list-style-type:decimal;
+    display:flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    max-height: 240px;
+}
+
+.novos-itens ul li{
+    color: black;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.riscado{
+    text-decoration: line-through;
+}
+

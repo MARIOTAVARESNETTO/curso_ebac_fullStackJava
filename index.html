@@ -7,19 +7,27 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,700;1,100&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="main.css">
 
     <title>TAREFAS</title>
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>Tarefas a realizar</h1>
-        <div class="cadastramento-tarefa">
-        <form>
-            <input type="text" name="cadastro-tarefa" id="cadastro-tarefa" placeholder="Digite a tarefa a realizar"/>
-            <button type="submit">ADICIONAR +</button>
-        </form>
+        <div class="container">
+            <form id="cadastramento-tarefa">
+                <input type="text" name="cadastro-tarefa" id="cadastro-tarefa-nova" placeholder="Digite a tarefa a realizar"/>
+                <button type="submit">ADICIONAR +</button>
+            </form>
         </div>
-    </div>
+    </header>
+            <div class="novos-itens">
+            <ul></ul>
+            </div>       
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="./main.js"></script>
 </body>
 </html>
