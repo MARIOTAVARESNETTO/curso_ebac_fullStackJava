@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+header{
+    background-color: darkblue;
+    color: white;
+    padding: 36px;
+}
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    justify-content: center;
+}
+
+.container-flex{
+    display: flex;
+}
+
+header img{
+    width: 72px;
+    margin-left: 16px;
+}
+
+header >.container h2{
+    padding: 6px;
+    font-size: 52px;
+}
+
+#formulario{
+    display: none;
+}
+
+#formulario{
+    max-width: 1024px;
+    margin-left: 24px;
+}
+
+form h2{
+    text-align: center;
+    color: black
+}
+
+.formCadastro{
+    margin-bottom: 16px;
+    align-items: center;
+}
+
+.formCadastro label{
+    font-weight: bold;
+    display: flex;
+    margin-left: 40px;
+}
+
+.formCadastro input, button{
+    background-color: rgb(240, 234, 234);;
+    width: 100%;
+    margin-left: 40px;
+    display: block;
+    padding: 16px;
+    border-radius: 10px;
+}
+button{
+    width: 100%;
+    padding: 16px;
+    background-color:rgb(148, 134, 134);
+    color:black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+img{
+    cursor: pointer;
+}

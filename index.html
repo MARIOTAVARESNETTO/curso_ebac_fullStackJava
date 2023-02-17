@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+    <title>CADASTRO</title>
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <h2>Faça seu Cadastro + </h2>
+            <img src="./images/cadastro.png" alt="icone de folha de cadastro"/>
+        </div>
+    </header>
+    <section>
+        <div class="container">
+            <form id="formulario">
+                <h2>PREENCHA ABAIXO</h2>
+                <div class="formCadastro exemplo">
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome completo">
+                </div>
+                <div class="formCadastro">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu email">
+                </div>
+                <div class="formCadastro">
+                <label for="telefone">Telefone</label>
+                <input type="tel" name="telefone" id="telefone" placeholder="Digite seu telefone">
+                </div>
+                <div class="formCadastro">
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf" placeholder="Digite seu cpf">
+                </div>
+                <div class="formCadastro">
+                <label for="endereco">Endereço</label>
+                <input type="text" name="endereco" id="endereco" placeholder="Digite seu endereço">
+                </div>
+                <div class="formCadastro">
+                <label for="cep">CEP</label>
+                <input type="text" name="cep" id="cep" placeholder="Digite seu cep">
+                </div>
+                <button type="submit">CADASTRAR</button>
+            </form>
+        </div>
+    </section>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/jquery.mask.min.js"></script>
+    <script src="./js/jquery.validate.min.js"></script>
+    <script src="./js/messages_pt_BR.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
