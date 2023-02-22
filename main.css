@@ -1,0 +1,310 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Labrada', serif;
+}
+
+
+.container{
+    max-width: 1024px;
+    width: 100%;
+    background-color: rgb(93, 60, 238);
+    color: white;
+    margin: 0 auto;
+    display: flex;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 5px solid rgb(107, 59, 107);
+}
+
+h1{
+    font-size: 40px;
+}
+
+header .container a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.conteudoDaPagina{
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: aliceblue;
+    color: black;
+}
+
+.containerSobreLoja{
+    width: 100%;
+    margin: 0 auto;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+img{
+    max-width: 320px;
+    width: 100%;
+}
+
+#sobreLoja{
+    margin-left: 16px;
+    align-items: center;
+}
+
+#sobreLoja h2{
+    border-bottom: 2px solid rgb(107, 59, 107);
+    font-family: 'Kanit', sans-serif;
+}
+
+#sobreLoja h3{
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.títuloProdutos{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.containerProduto{
+    width: 60%;
+    margin: 0 auto;
+    border-top:2px solid rgb(107, 59, 107);
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+#detalheProduto{
+    padding: 30px 0 16px 10px;
+}
+
+#detalheProduto h2{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#detalheProduto h3{
+    font-style: italic;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 100;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(51, 110, 189);
+    color: white;
+    padding: 2px;
+    font-family: 'Kanit', sans-serif;
+    justify-content: center;
+}
+
+@media screen and (max-width: 767px){
+
+    .conteudoDaPagina{
+        width: 100%;
+        margin: 0 auto;
+        background-color: aliceblue;
+        color: black;
+    }
+
+    .containerSobreLoja{
+        width: 100%;
+        display: block;
+    }
+
+    img{
+        max-width: 767px;
+        width: 100%;
+    }
+
+    #sobreLoja, .títuloProdutos{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .títuloProdutos h2{
+        width: 100%;
+        margin-top: 350px;
+        display: block;
+        margin-left: 16px;
+    }
+
+
+    .containerProduto{
+        width: 100%;
+        margin-left: 16px;
+        border-top:2px solid rgb(107, 59, 107);
+        display: grid;
+        grid-template-columns: 100%;
+    }
+
+    #detalheProduto{
+        margin-bottom: 150px;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation:portrait){
+    
+    .conteudoDaPagina{
+        width: 100%;
+        margin: 0 auto;
+        background-color: aliceblue;
+        color: black;
+    }
+
+    .containerSobreLoja{
+        width: 100%;
+        display: block;
+    }
+
+    img{
+        max-width: 1023px;
+        width: 100%;
+    }
+
+    #sobreLoja, .títuloProdutos{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
+    }
+
+    .títuloProdutos h2{
+        width: 100%;
+        margin-top: 150px;
+        display: block;
+        margin-left: 16px;
+    }
+
+
+    .containerProduto{
+        width: 100%;
+        padding: 16px;
+        border-top:2px solid rgb(107, 59, 107);
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+
+    #detalheProduto{
+        margin-bottom: 100px;
+    }
+
+}
+
+@media screen and(min-width: 1024px) and (orientation: landscape) {
+
+.container{
+    background-color: rgb(93, 60, 238);
+    color: white;
+    margin: 0 auto;
+    display: flex;
+}
+
+header .container{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0;
+    border-bottom: 5px solid rgb(107, 59, 107);
+}
+
+h1{
+    font-size: 40px;
+}
+
+header .container a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 16px;
+}
+
+.conteudoDaPagina{
+    margin: 0 auto;
+    background-color: aliceblue;
+    color: black;
+}
+
+.containerSobreLoja{
+    width: 60%;
+    margin: 0 auto;
+    padding: 16px;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+img{
+    max-width: 320px;
+    width: 100%;
+}
+
+#sobreLoja{
+    margin-left: 16px;
+    align-items: center;
+}
+
+#sobreLoja h2{
+    border-bottom: 2px solid rgb(107, 59, 107);
+    font-family: 'Kanit', sans-serif;
+}
+
+#sobreLoja h3{
+    margin-top: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.títuloProdutos{
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    font-family: 'Kanit', sans-serif;
+}
+
+.containerProduto{
+    width: 88%;
+    margin: 0 auto;
+    border-top:2px solid rgb(107, 59, 107);
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+}
+
+#detalheProduto{
+    padding: 30px 0 16px 10px;
+}
+
+#detalheProduto h2{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+}
+
+#detalheProduto h3{
+    font-style: italic;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 100;
+}
+
+button{
+    width: 100%;
+    height: 30px;
+    background-color: rgb(51, 110, 189);
+    color: white;
+    padding: 2px;
+    font-family: 'Kanit', sans-serif;
+    justify-content: center;
+}
+}
+
